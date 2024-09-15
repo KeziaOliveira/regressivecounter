@@ -4,7 +4,7 @@ function App() {
   const [timeLeft, setTimeLeft] = useState({});
 
   // Data do próximo tapa (modifique para qualquer data futura)
-  const nextSlapDate = new Date("2024-12-31T00:00:00");
+  const nextSlapDate = new Date("2024-09-27T00:00:00");
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,18 +34,21 @@ function App() {
 
   return (
     <div className="countdown">
-      <h1>Próximo Tapa em:</h1>
+      {/* <h1>Próximo Tapa em:</h1> */}
       <div className="time">
-        <div>
+        <div className="number">
           {timeLeft.days || 0} <span>dias</span>
         </div>
-        <div>
+        <div className="dots"> </div>
+        <div className="number">
           {timeLeft.hours || 0} <span>horas</span>
         </div>
-        <div>
+        <div className="dots">:</div>
+        <div className="number">
           {timeLeft.minutes || 0} <span>minutos</span>
         </div>
-        <div>
+        <div className="dots">:</div>
+        <div className="number">
           {timeLeft.seconds || 0} <span>segundos</span>
         </div>
       </div>

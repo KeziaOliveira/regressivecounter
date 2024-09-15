@@ -1,0 +1,58 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000000; /* Fundo preto */
+  text-align: center;
+  padding: 50px;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ffffff; /* Cor branca para o título */
+}
+
+.countdown {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2em;
+}
+
+.number {
+  background-color: #000000;
+  color: #820a0a;
+  font-size: 6rem;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Alinha os números e o texto em coluna */
+  align-items: center; /* Centraliza o texto horizontalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  height: 100px; /* Definir uma altura fixa para o bloco */
+  width: 80px; /* Definir uma largura fixa */
+}
+
+span {
+  font-size: 0.3em;
+  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.dots {
+  color: #820a0a;
+  font-size: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 2rem;
+  margin-top: 0;
+  line-height: 1;
+}
