@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.countdown {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2em;
+}
+
+.time div {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 0.5em;
+  display: block;
+}
